@@ -42,3 +42,14 @@
 .accordion-body {
     padding: 0 20px 20px !important;
 }
+
+.skill-progress {
+    width: 100%;
+    animation-name: skills-progress;
+    animation-duration: 3s;
+}
+
+@keyframes skills-progress {
+    from {width: 40%;}
+    to {width: 100%;}
+}
