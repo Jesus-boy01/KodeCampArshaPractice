@@ -5,12 +5,12 @@
     transition: all ease-in-out 0.7s;
 }
 
-.secondary-color {
+#icon:hover {
     color: #47b2e4 !important;
 }
 
-#icon:hover {
-    color: #47b2e4 !important;
+#header-section ul li a {
+    color: #fff;
 }
 
 #header-section ul li a:hover {
@@ -19,6 +19,7 @@
 
 #get-started:hover {
     background-color: #47b2e4;
+    color: #fff !important;
 }
 
 /*---- sponsor section ----*/
