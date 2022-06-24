@@ -20,6 +20,7 @@
 #get-started:hover {
     background-color: #47b2e4;
     color: #fff !important;
+    border-color: #47b2e4;
 }
 
 /*---- sponsor section ----*/
@@ -46,10 +47,17 @@
 .skill-progress {
     width: 100%;
     animation-name: skills-progress;
-    animation-duration: 6s;
+    animation-duration: 7s;
 }
 
 @keyframes skills-progress {
     from {width: 40%;}
     to {width: 100%;}
+}
+
+/*---- cta section ----*/
+
+#cta-section {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") no-repeat fixed center;
+    height: auto;
 }
