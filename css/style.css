@@ -61,3 +61,14 @@
     background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") no-repeat fixed center;
     height: auto;
 }
+
+/*---- service section ----*/
+
+.service-row:hover {
+    transform: translateY(-10px);
+    transition: all ease-in-out 0.4s;
+}
+
+.service-row:hover h6 {
+    color: #47b2e4 !important;
+}
