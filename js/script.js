@@ -24,3 +24,34 @@ skillProgress = () => {
         statisticsProgress.classList.remove("skill-progress");
     }
 }
+
+let overlayWrapper = document.querySelector("#overlay-wrapper");
+
+function textOverlay() {
+    if (!(onmouseenter)) {
+        let handler = '';
+
+        handler = `<div class="overlay text-white d-flex align-items-center" style="width: 94%;">
+                        <div class="left-overlay ms-3">
+                            <p class="mb-1">Web 2</p>
+                            <p class="mb-3">Web</p>
+                        </div>
+                        <div class="right-overlay me-3 ms-auto">
+                            <i class="bi bi-plus fs-4"></i>
+                            <i class="bi bi-link-45deg fs-4"></i>
+                        </div>
+                    </div>`;
+
+        overlayWrapper.innerHTML = handler;
+
+        let overlay = document.querySelector(".overlay");
+        overlay.classList.add("image-overlay");
+    }
+}
+
+function textOverlayRemove() {
+    if (!(onmouseleave)) {
+        let overlay = document.querySelector(".overlay");
+        overlay.classList.remove("image-overlay")
+    }
+}

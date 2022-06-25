@@ -72,3 +72,22 @@
 .service-row:hover h6 {
     color: #47b2e4 !important;
 }
+
+/*---- portfolio section ----*/
+
+.portfolio-pills:hover {
+    background-color: #47b2e4;
+    border-color: #47b2e4 !important;
+    color: #fff !important;
+}
+
+.portfolio-image:hover {
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    background-color: #37517e;
+    opacity: 0.8;
+}
