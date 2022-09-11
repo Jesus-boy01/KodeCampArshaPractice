@@ -24,19 +24,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" id="home-link" aria-current="page" href="#" style="color: #47b2e4;">Home</a>
+                                <a class="nav-link active" onclick="currentNav()" id="home-link" aria-current="page" href="#" style="color: #47b2e4;">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about-us-section">About</a>
+                                <a class="nav-link page-navs-about" onclick="currentNav()" href="#about-us-section">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#service-section">Services</a>
+                                <a class="nav-link page-navs-services" onclick="currentNav()" href="#service-section">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#portfolio-section">Portfolio</a>
+                                <a class="nav-link page-navs-portfolio" onclick="currentNav()" href="#portfolio-section">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#team-section">Team</a>
+                                <a class="nav-link page-navs-team" onclick="currentNav()" href="#team-section">Team</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff;">
@@ -50,10 +50,10 @@
                                 </ul>
                             </li>
                             <li class="nav-item me-3">
-                                <a class="nav-link text-white" href="#">Contact</a>
+                                <a class="nav-link page-navs-contact text-white" onclick="currentNav()" href="#">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white border d-inline-block text border-2 rounded-pill px-4" id="get-started" href="#" style="border-color: #47b2e4 !important; transition: all ease-in-out 0.6s;">Get Started</a>
+                                <a class="nav-link text-white border d-inline-block text border-2 rounded-pill px-4 get-started" href="#" style="border-color: #47b2e4 !important; transition: all ease-in-out 0.6s;">Get Started</a>
                             </li>
                         </ul>
                     </div>
@@ -529,14 +529,14 @@
                                 <div class="col-lg-8">
                                     <div class="member">
                                         <div class="member-name">
-                                            <p class="mb-1 fw-bold fs-5" style="color: #37517e;">Walter White</p>
+                                            <p class="mb-1 fw-bold fs-5" style="color: #37517e;">Sarah Johnson</p>
                                         </div>
                                         <div class="member-title">
-                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Chief Executive Officer</p>
+                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Product Manager</p>
                                             <p class="border-bottom border-1 mb-2" style="width: 15%;"></p>
                                         </div>
                                         <div class="member-text">
-                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Aut maiores voluptates amet et quis praesentium qui senda para
                                             </p>
                                         </div>
                                         <div class="member-socials d-flex">
@@ -561,14 +561,14 @@
                                 <div class="col-lg-8">
                                     <div class="member">
                                         <div class="member-name">
-                                            <p class="mb-1 fw-bold fs-5" style="color: #37517e;">Walter White</p>
+                                            <p class="mb-1 fw-bold fs-5" style="color: #37517e;">William Anderson</p>
                                         </div>
                                         <div class="member-title">
-                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Chief Executive Officer</p>
+                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">CTO</p>
                                             <p class="border-bottom border-1 mb-2" style="width: 15%;"></p>
                                         </div>
                                         <div class="member-text">
-                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Quisquam facilis cum velit laborum corrupti fuga rerum quia
                                             </p>
                                         </div>
                                         <div class="member-socials d-flex">
@@ -593,14 +593,14 @@
                                 <div class="col-lg-8">
                                     <div class="member">
                                         <div class="member-name">
-                                            <p class="mb-1 fw-bold fs-5" style="color: #37517e;">Walter White</p>
+                                            <p class="mb-1 fw-bold fs-5" style="color: #37517e;">Amanda Jepson</p>
                                         </div>
                                         <div class="member-title">
-                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Chief Executive Officer</p>
+                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Accountant</p>
                                             <p class="border-bottom border-1 mb-2" style="width: 15%;"></p>
                                         </div>
                                         <div class="member-text">
-                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                                            <p class="fs-6 mb-2" style="color: rgb(68, 65, 65);">Dolorum tempora officiis odit laborum officiis et et accusamus
                                             </p>
                                         </div>
                                         <div class="member-socials d-flex">
@@ -611,6 +611,107 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing section -->
+    <section id="pricing-section" class="py-5">
+        <div class="container">
+            <div class="pricing-head text-center mb-5">
+                <div class="pricing-head-title mb-4">
+                    <h3 class="fs-2 fw-bold" style="color: #37517e;">PRICING</h3>
+                </div>
+                <div class="pricing-text">
+                    <p style="font-size: 19px; color: rgb(104, 100, 100);">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+            </div>
+            <div class="pricing-content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="plan-1 py-5 px-5" style="box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%); border-radius: 10px;">
+                            <div class="plan-info mb-5">
+                                <div class="plan-type">
+                                    <p class="fs-5 mb-2 fw-bold" style="color: #37517e;">Free Plan</p>
+                                </div>
+                                <div class="plan-price">
+                                    <p class="fs-1 mb-0" style="color: #37517e;">$0</p>
+                                </div>
+                                <div class="plan-duration">
+                                    <p class="fs-5 mb-0" style="color: #47b2e4;">per month</p>
+                                </div>
+                            </div>
+                            <div class="plan-properties mb-4">
+                                <ul class="px-0">
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Quam adipiscing vitae proin</li>
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Nec feugiat nisl pretium</li>
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Nulla at volutpat diam uteera</li>
+                                    <li class="list-unstyled fs-6" style="color: rgb(180, 174, 174);"><i class="bi bi-x-lg me-2" style="color: #999;"></i><del>Pharetra massa massa ultricies</del></li>
+                                    <li class="list-unstyled fs-6" style="color: rgb(180, 174, 174);"><i class="bi bi-x-lg me-2" style="color: #999;"></i><del>Massa ultricies mi quis hendrerit</del></li>
+                                </ul>
+                                <i ></i>
+                            </div>
+                            <div class="plan-start mb-3">
+                                <a class="nav-link border d-inline-block border-1 rounded-pill px-4 get-started" href="#" style="border-color: #47b2e4 !important; color: #47b2e4; transition: all ease-in-out 0.6s;">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="plan-2 py-5 px-5" style="box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%); border-radius: 10px;">
+                            <div class="plan-info mb-5">
+                                <div class="plan-type">
+                                    <p class="fs-5 mb-2 fw-bold" style="color: #37517e;">Business Plan</p>
+                                </div>
+                                <div class="plan-price">
+                                    <p class="fs-1 mb-0" style="color: #37517e;">$29</p>
+                                </div>
+                                <div class="plan-duration">
+                                    <p class="fs-5 mb-0" style="color: #47b2e4;">per month</p>
+                                </div>
+                            </div>
+                            <div class="plan-properties mb-4">
+                                <ul class="px-0">
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Quam adipiscing vitae proin</li>
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Nec feugiat nisl pretium</li>
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Nulla at volutpat diam uteera</li>
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Pharetra massa massa ultricies</li>
+                                    <li class="list-unstyled fs-6" style="color: rgb(180, 174, 174);"><i class="bi bi-x-lg me-2" style="color: #999;"></i><del>Massa ultricies mi quis hendrerit</del></li>
+                                </ul>
+                                <i ></i>
+                            </div>
+                            <div class="plan-start mb-3">
+                                <a class="nav-link d-inline-block text-white border border-2 rounded-pill px-4 get-started" href="#" style="padding: 10px 20px; background-color: #47b2e4; border-color:#47b2e4 !important;">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="plan-3 py-5 px-5" style="box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%); border-radius: 10px;">
+                            <div class="plan-info mb-5">
+                                <div class="plan-type">
+                                    <p class="fs-5 mb-2 fw-bold" style="color: #37517e;">Developer Plan</p>
+                                </div>
+                                <div class="plan-price">
+                                    <p class="fs-1 mb-0" style="color: #37517e;">$49</p>
+                                </div>
+                                <div class="plan-duration">
+                                    <p class="fs-5 mb-0" style="color: #47b2e4;">per month</p>
+                                </div>
+                            </div>
+                            <div class="plan-properties mb-4">
+                                <ul class="px-0">
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Quam adipiscing vitae proin</li>
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Nec feugiat nisl pretium</li>
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Nulla at volutpat diam uteera</li>
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Pharetra massa massa ultricies</li>
+                                    <li class="list-unstyled fs-6" style="color: #999;"><i class="bi bi-check-lg me-2" style="color: #28a745;"></i>Massa ultricies mi quis hendrerit</li>
+                                </ul>
+                                <i ></i>
+                            </div>
+                            <div class="plan-start mb-3">
+                                <a class="nav-link border d-inline-block border-1 rounded-pill px-4 get-started" href="#" style="border-color: #47b2e4 !important; color: #47b2e4; transition: all ease-in-out 0.6s;">Get Started</a>
                             </div>
                         </div>
                     </div>

@@ -17,7 +17,7 @@
     color: #47b2e4;
 }
 
-#get-started:hover {
+.get-started:hover {
     background-color: #47b2e4;
     color: #fff !important;
     border-color: #47b2e4;

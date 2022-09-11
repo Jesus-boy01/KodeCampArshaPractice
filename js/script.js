@@ -14,6 +14,14 @@ scrollFunction = () => {
     }
 }
 
+// function currentNav() {
+//     document.querySelector(".page-navs-about").style.color = "#47b2e4";
+//     document.querySelector(".page-navs-services").style.color = "#47b2e4";
+//     document.querySelector(".page-navs-portfolio").style.color = "#47b2e4";
+//     document.querySelector(".page-navs-team").style.color = "#47b2e4";
+//     document.querySelector(".page-navs-contact").style.color = "#47b2e4";
+// }
+
 skillProgress = () => {
 
     let statisticsProgress = document.querySelector(".statistics-progress");
